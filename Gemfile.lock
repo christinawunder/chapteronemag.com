@@ -11,6 +11,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.11.1)
     forwardable-extended (2.6.0)
+    hpricot (0.8.6)
     http_parser.rb (0.6.0)
     i18n (1.7.0)
       concurrent-ruby (~> 1.0)
@@ -53,6 +54,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
+    open_uri_redirections (0.2.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.1)
@@ -77,12 +79,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  hpricot
   jekyll (~> 4.0.0)
   jekyll-feed (~> 0.12)
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-time-to-read
   minima (~> 2.5)
+  open_uri_redirections
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
